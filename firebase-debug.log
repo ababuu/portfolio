@@ -1,0 +1,149 @@
+[debug] [2022-05-06T12:52:26.120Z] ----------------------------------------------------------------------
+[debug] [2022-05-06T12:52:26.122Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-05-06T12:52:26.122Z] CLI Version:   10.8.0
+[debug] [2022-05-06T12:52:26.123Z] Platform:      win32
+[debug] [2022-05-06T12:52:26.123Z] Node Version:  v16.13.1
+[debug] [2022-05-06T12:52:26.124Z] Time:          Fri May 06 2022 15:52:26 GMT+0300 (East Africa Time)
+[debug] [2022-05-06T12:52:26.124Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-06T12:52:26.138Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-06T12:52:26.139Z] > authorizing via signed-in user (ababualemu123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ababu\Desktop\VS Code\portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-05-06T12:52:42.376Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-06T12:52:42.377Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-06T12:53:04.606Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:145:12)
+    at refreshTokens (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:485:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async createCloudProject (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:175:26)
+    at async createFirebaseProjectAndLog (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:46:9)
+    at async promptAndCreateNewProject (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:32:12)
+    at async doSetup (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+    at async init (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:36:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2022-05-06T12:53:20.910Z] ----------------------------------------------------------------------
+[debug] [2022-05-06T12:53:20.912Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-06T12:53:20.913Z] CLI Version:   10.8.0
+[debug] [2022-05-06T12:53:20.913Z] Platform:      win32
+[debug] [2022-05-06T12:53:20.913Z] Node Version:  v16.13.1
+[debug] [2022-05-06T12:53:20.914Z] Time:          Fri May 06 2022 15:53:20 GMT+0300 (East Africa Time)
+[debug] [2022-05-06T12:53:20.914Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-06T12:53:20.923Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-06T12:53:20.923Z] > authorizing via signed-in user (ababualemu123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ababu\Desktop\VS Code\portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-05-06T12:53:49.563Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-06T12:53:49.564Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-06T12:53:50.301Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Fri, 06 May 2022 12:53:48 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-06T12:53:50.401Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"ababu portfolio","name":"ababu portfolio"}
+[debug] [2022-05-06T12:53:51.927Z] <<< HTTP RESPONSE 400 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Fri, 06 May 2022 12:53:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1227","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-06T12:53:51.927Z] <<< HTTP RESPONSE BODY {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-05-06T12:54:12.991Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at module.exports (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at Request._callback (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:390:28)
+    at Request.emit (node:domain:475:12)
+    at Request.<anonymous> (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:390:28)
+    at Request.emit (node:domain:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:509:28)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2022-05-06T12:54:24.524Z] ----------------------------------------------------------------------
+[debug] [2022-05-06T12:54:24.526Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-05-06T12:54:24.527Z] CLI Version:   10.8.0
+[debug] [2022-05-06T12:54:24.527Z] Platform:      win32
+[debug] [2022-05-06T12:54:24.527Z] Node Version:  v16.13.1
+[debug] [2022-05-06T12:54:24.528Z] Time:          Fri May 06 2022 15:54:24 GMT+0300 (East Africa Time)
+[debug] [2022-05-06T12:54:24.528Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-06T12:54:24.537Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-06T12:54:24.538Z] > authorizing via signed-in user (ababualemu123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ababu\Desktop\VS Code\portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2022-05-06T12:54:41.961Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"ababu portfolio","name":"ababu portfolio"}
+[debug] [2022-05-06T12:54:43.544Z] <<< HTTP RESPONSE 400 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Fri, 06 May 2022 12:54:42 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1224","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-06T12:54:43.544Z] <<< HTTP RESPONSE BODY {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2022-05-06T12:54:44.510Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at module.exports (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at Request._callback (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:390:28)
+    at Request.emit (node:domain:475:12)
+    at Request.<anonymous> (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (node:events:390:28)
+    at Request.emit (node:domain:475:12)
+    at IncomingMessage.<anonymous> (C:\Users\ababu\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (node:events:509:28)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
