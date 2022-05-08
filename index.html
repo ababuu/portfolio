@@ -64,263 +64,275 @@
     </div> -->
 
     <section>
-      <div class="container">
+      <div class="container" id="container">
         <div id="top" class="page-scroll"></div>
         <!-- Navbar -->
         <header>
-          <a href="#top" class="logo">ababu.</a>
+          <a href="#top" class="logo" id="logo">ababu.</a>
           <ul>
             <li><a class="active page" href="#top" id="home-btn">Home</a></li>
             <li><a href="#about" class="page" id="about-btn">About Me</a></li>
             <li><a href="#projects" class="page" id="project-btn">Projects</a></li>
+            <li>
+              <div>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox-label">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <span class="ball"></span>
+                </label>
+              </div>
+            </li>
           </ul>
         </header>
 
         <!-- Main Content -->
-        <div class="content">
-          <div class="column">
-            <h2 data-aos="fade-down" data-aos-duration="1000">Hi yall,<span class="wave">👋</span></h2>
-            <p data-aos="fade-right" data-aos-duration="1000">
-              I'm Ababu, a front-End developer with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored. Enjoy working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally picking up the slack when necessary. With a passion for both personal growth and for software development, I attended a 1000+ hour coding bootcamp to learn new languages while sharpening existing skills. Ready to apply my passion for coding to a talented engineering team to develop quality solutions.
-            </p>
-            <a href="mailto:ababualemu123@gmail.com" data-aos="fade-right" data-aos-duration="1000">Contact Me</a>
-          </div>
-          <div class="my_img">
-            <img src="./assets/me.png" alt="Hello There!!" data-aos="fade-up-right" data-aos-duration="1000"/>
-          </div>
-        </div>
-
-        <!-- 2nd Section -->
-        <div id="about" class="content page-scroll" style="justify-content: space-around">
-          <div class="img" data-aos="fade-right" data-aos-duration="1000">
-            <!-- https://media.giphy.com/media/7wA0YhMXvDBhTckOGM/giphy.gif?cid=790b7611b6565a9092ee51eeee34015858a0783fd77b6f31&rid=giphy.gif&ct=s -->
-            <img class="gif"
-              src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47764qyaoi7anl8r9ehrumcvos2tynrhrwe47bd4yj&rid=giphy.gif&ct=g"
-              alt="APS-OCTOCAT"
-            />
-          </div>
-          <div class="column-2">
-            <svg
-              xmlns="//www.w3.org/2000/svg"
-              version="1.1"
-              class="svg-filters"
-              style="display: none"
-            >
-              <defs>
-                <filter id="marker-shape">
-                  <feTurbulence
-                    type="fractalNoise"
-                    baseFrequency="0 0.15"
-                    numOctaves="1"
-                    result="warp"
-                  />
-                  <feDisplacementMap
-                    xChannelSelector="R"
-                    yChannelSelector="G"
-                    scale="30"
-                    in="SourceGraphic"
-                    in2="warp"
-                  />
-                </filter>
-              </defs>
-            </svg>
-            <h2 style="font-weight: 550">
-              <span class="low-highlight-pink">What I do</span>
-            </h2>
-            <h3 style="font-size: 24px; color: #444444; font-weight: 1">
-              I love all aspects of technology and want to explore as much as I
-              can!
-            </h3>
-            <div class="dev-icons">
-              <ul>
-                <li class="software-skill-inline html5">
-                  <i class="devicon-html5-plain colored"></i>
-                  <p>HTML5</p>
-                </li>
-                <li class="software-skill-inline css3">
-                  <i class="devicon-css3-plain colored"></i>
-                  <p>CSS3</p>
-                </li>
-                <li class="software-skill-inline javascript">
-                  <i class="devicon-javascript-plain colored"></i>
-                  <p>JavaScript</p>
-                </li>
-		<li class="software-skill-inline linux">
-                  <i class="devicon-typescript-plain colored"></i>
-                  <p>TypeScript</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-jquery-plain colored"></i>
-                  <p>JQuery</p>
-                </li>
-		<li class="software-skill-inline linux">
-                  <i class="devicon-sass-original colored"></i>
-                  <p>Sass</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-bootstrap-plain colored"></i>          
-                  <p>Bootstrap</p>
-                </li>
-		<li class="software-skill-inline linux">
-                  <i class="devicon-react-original colored"></i>
-                  <p>React</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-redux-original colored"></i>
-                  <p>Redux</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-php-plain colored"></i>
-                  <p>PHP</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-mysql-plain-wordmark colored"></i>
-                  <p>My SQL</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-git-plain colored"></i>
-                  <p>Git</p>
-                </li>
-		<li class="software-skill-inline linux">
-                  <i class="devicon-github-original colored"></i>
-                  <p>Github</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-npm-original-wordmark colored"></i>
-                  <p>npm</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-firebase-plain colored"></i>
-                  <p>Firebase</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-jest-plain colored"></i>
-                  <p>Jest</p>
-                </li>
-                <li class="software-skill-inline linux">
-                  <i class="devicon-materialui-plain colored"></i>
-                  <p>Material UI</p>
-                </li>
-		<li class="software-skill-inline linux">
-                  <i class="devicon-codepen-plain colored"></i>
-                  <p>Codepen</p>
-                </li>
-              </ul>
+          <div class="content">
+            <div class="column" id="column">
+              <h2 data-aos="fade-down" data-aos-duration="1000" id="hi">Hi yall,<span class="wave">👋</span></h2>
+              <p data-aos="fade-right" data-aos-duration="1000" id="intro">
+                I'm Ababu, a front-End developer with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored. Enjoy working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally picking up the slack when necessary. With a passion for both personal growth and for software development, I attended a 1000+ hour coding bootcamp to learn new languages while sharpening existing skills. Ready to apply my passion for coding to a talented engineering team to develop quality solutions.
+              </p>
+              <a href="mailto:ababualemu123@gmail.com" data-aos="fade-right" data-aos-duration="1000">Contact Me</a>
             </div>
-
-            <div>
-              <p style="color: #444444; font-size: 20px">
-                <img
-                  alt="⚡"
-                  draggable="false"
-                  src="https://twemoji.maxcdn.com/2/72x72/26a1.png"
-                  style="
-                    height: 1em;
-                    width: 1em;
-                    margin: 0px 0.05em 0px 0.1em;
-                    vertical-align: -0.1em;
-                  "
-                />
-                Develop highly interactive Front end / User Interfaces for your
-                web
-              </p>
-              <p style="color: #444444; font-size: 20px">
-                <img
-                  alt="⚡"
-                  draggable="false"
-                  src="https://twemoji.maxcdn.com/2/72x72/26a1.png"
-                  style="
-                    height: 1em;
-                    width: 1em;
-                    margin: 0px 0.05em 0px 0.1em;
-                    vertical-align: -0.1em;
-                  "
-                />
-                Develop colourful, responsive and beautiful mini-projects, websites, and etc.
-              </p>
+            <div class="my_img img" id="my_img">
+              <img src="./assets/me.png" alt="Hello There!!" data-aos="fade-up-right" data-aos-duration="1000"/>
             </div>
           </div>
-        </div>
-
-
-        <!-- 4th Section -->
-        <svg
-          xmlns="//www.w3.org/2000/svg"
-          version="1.1"
-          class="svg-filters"
-          style="display: none"
-        >
-          <defs>
-            <filter id="marker-shape">
-              <feTurbulence
-                type="fractalNoise"
-                baseFrequency="0 0.15"
-                numOctaves="1"
-                result="warp"
+  
+          <!-- 2nd Section -->
+          <div id="about" class="content page-scroll" style="justify-content: space-around">
+            <div class="img" data-aos="fade-right" data-aos-duration="1000">
+              <!-- https://media.giphy.com/media/7wA0YhMXvDBhTckOGM/giphy.gif?cid=790b7611b6565a9092ee51eeee34015858a0783fd77b6f31&rid=giphy.gif&ct=s -->
+              <img class="gif"
+                src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47764qyaoi7anl8r9ehrumcvos2tynrhrwe47bd4yj&rid=giphy.gif&ct=g"
+                alt="APS-OCTOCAT"
               />
-              <feDisplacementMap
-                xChannelSelector="R"
-                yChannelSelector="G"
-                scale="30"
-                in="SourceGraphic"
-                in2="warp"
-              />
-            </filter>
-          </defs>
-        </svg>
-        <h2
-          id="projects"
-          class="mob-h2 page-scroll"
-          style="font-size: 56px; font-weight: 700; margin-top: 50px"
-        >
-          <span class="low-highlight-cyan">Projects</span>
-        </h2>
-        <div class="projects" data-aos="fade-up" data-aos-duration="1500">
-          <div class="repo-card" data-repo="ababuu/where-s_waldo_-a_photo_tagging_app-"></div>
-          <div class="repo-card" data-repo="ababuu/shoplly"></div>
-          <div
-            class="repo-card"
-            data-repo="ababuu/pinterest_clone
-            "
-          ></div>
-          <div
-            class="repo-card"
-            data-repo="ababuu/TODO_Web_App"></div>
-		  <div
-            class="repo-card"
-            data-repo="ababuu/memory_game_react"></div>
-
-          <div class="repo-card" data-repo="ababuu/Weather_webApp"></div>
-          <div class="repo-card" data-repo="ababuu/ETCH_A_SKETCH"></div>
-          <div class="repo-card" data-repo="ababuu/rock_paper_scissors"></div>
+            </div>
+            <div class="column-2">
+              <svg
+                xmlns="//www.w3.org/2000/svg"
+                version="1.1"
+                class="svg-filters"
+                style="display: none"
+              >
+                <defs>
+                  <filter id="marker-shape">
+                    <feTurbulence
+                      type="fractalNoise"
+                      baseFrequency="0 0.15"
+                      numOctaves="1"
+                      result="warp"
+                    />
+                    <feDisplacementMap
+                      xChannelSelector="R"
+                      yChannelSelector="G"
+                      scale="30"
+                      in="SourceGraphic"
+                      in2="warp"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+              <h2 style="font-weight: 550">
+                <span class="low-highlight-pink">What I do</span>
+              </h2>
+              <h3 style="font-size: 24px; color: #444444; font-weight: 1">
+                I love all aspects of technology and want to explore as much as I
+                can!
+              </h3>
+              <div class="dev-icons">
+                <ul>
+                  <li class="software-skill-inline html5">
+                    <i class="devicon-html5-plain colored"></i>
+                    <p>HTML5</p>
+                  </li>
+                  <li class="software-skill-inline css3">
+                    <i class="devicon-css3-plain colored"></i>
+                    <p>CSS3</p>
+                  </li>
+                  <li class="software-skill-inline javascript">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript</p>
+                  </li>
+      <li class="software-skill-inline linux">
+                    <i class="devicon-typescript-plain colored"></i>
+                    <p>TypeScript</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-jquery-plain colored"></i>
+                    <p>JQuery</p>
+                  </li>
+      <li class="software-skill-inline linux">
+                    <i class="devicon-sass-original colored"></i>
+                    <p>Sass</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-bootstrap-plain colored"></i>          
+                    <p>Bootstrap</p>
+                  </li>
+      <li class="software-skill-inline linux">
+                    <i class="devicon-react-original colored"></i>
+                    <p>React</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-redux-original colored"></i>
+                    <p>Redux</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-php-plain colored"></i>
+                    <p>PHP</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-mysql-plain-wordmark colored"></i>
+                    <p>My SQL</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-git-plain colored"></i>
+                    <p>Git</p>
+                  </li>
+      <li class="software-skill-inline linux">
+                    <i class="devicon-github-original colored"></i>
+                    <p>Github</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-npm-original-wordmark colored"></i>
+                    <p>npm</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-firebase-plain colored"></i>
+                    <p>Firebase</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-jest-plain colored"></i>
+                    <p>Jest</p>
+                  </li>
+                  <li class="software-skill-inline linux">
+                    <i class="devicon-materialui-plain colored"></i>
+                    <p>Material UI</p>
+                  </li>
+      <li class="software-skill-inline linux">
+                    <i class="devicon-codepen-plain colored"></i>
+                    <p>Codepen</p>
+                  </li>
+                </ul>
+              </div>
+  
+              <div>
+                <p style="color: #444444; font-size: 20px">
+                  <img
+                    alt="⚡"
+                    draggable="false"
+                    src="https://twemoji.maxcdn.com/2/72x72/26a1.png"
+                    style="
+                      height: 1em;
+                      width: 1em;
+                      margin: 0px 0.05em 0px 0.1em;
+                      vertical-align: -0.1em;
+                    "
+                  />
+                  Develop highly interactive Front end / User Interfaces for your
+                  web
+                </p>
+                <p style="color: #444444; font-size: 20px">
+                  <img
+                    alt="⚡"
+                    draggable="false"
+                    src="https://twemoji.maxcdn.com/2/72x72/26a1.png"
+                    style="
+                      height: 1em;
+                      width: 1em;
+                      margin: 0px 0.05em 0px 0.1em;
+                      vertical-align: -0.1em;
+                    "
+                  />
+                  Develop colourful, responsive and beautiful mini-projects, websites, and etc.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+  
+          <!-- 4th Section -->
+          <svg
+            xmlns="//www.w3.org/2000/svg"
+            version="1.1"
+            class="svg-filters"
+            style="display: none"
+          >
+            <defs>
+              <filter id="marker-shape">
+                <feTurbulence
+                  type="fractalNoise"
+                  baseFrequency="0 0.15"
+                  numOctaves="1"
+                  result="warp"
+                />
+                <feDisplacementMap
+                  xChannelSelector="R"
+                  yChannelSelector="G"
+                  scale="30"
+                  in="SourceGraphic"
+                  in2="warp"
+                />
+              </filter>
+            </defs>
+          </svg>
+          <h2
+            id="projects"
+            class="mob-h2 page-scroll"
+            style="font-size: 56px; font-weight: 700; margin-top: 50px"
+          >
+            <span class="low-highlight-cyan">Projects</span>
+          </h2>
+          <div class="projects" data-aos="fade-up" data-aos-duration="1500">
+            <div class="repo-card" data-repo="ababuu/where-s_waldo_-a_photo_tagging_app-"></div>
+            <div class="repo-card" data-repo="ababuu/shoplly"></div>
+            <div
+              class="repo-card"
+              data-repo="ababuu/pinterest_clone
+              "
+            ></div>
+            <div
+              class="repo-card"
+              data-repo="ababuu/TODO_Web_App"></div>
+        <div
+              class="repo-card"
+              data-repo="ababuu/memory_game_react"></div>
+  
+            <div class="repo-card" data-repo="ababuu/Weather_webApp"></div>
+            <div class="repo-card" data-repo="ababuu/ETCH_A_SKETCH"></div>
+            <div class="repo-card" data-repo="ababuu/rock_paper_scissors"></div>
+          </div>
+  
+          <h2  id="contact"
+            class="mob-connect enabledisable page-scroll"
+            style="font-size: 40px; font-weight: 700; margin-top: 50px"
+          >
+            <span class="low-highlight-hazeskin">Connect with me</span>
+          </h2>
+          <ul class="socialsites ">
+            <li>
+              <a href="https://github.com/ababuu" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ababu-alemu-17091519b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://t.me/ababu3" target="_blank"><i class="fab fa-telegram"></i></a>
+            </li>
+      <li>
+              <a href="https://www.instagram.com/_ababu_" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ababualemu0" target="_blank"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+  
+          <!-- Footer -->
+        
         </div>
-
-        <h2  id="contact"
-          class="mob-connect enabledisable page-scroll"
-          style="font-size: 40px; font-weight: 700; margin-top: 50px"
-        >
-          <span class="low-highlight-hazeskin">Connect with me</span>
-        </h2>
-        <ul class="socialsites ">
-          <li>
-            <a href="https://github.com/ababuu" target="_blank"><i class="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/ababu-alemu-17091519b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="https://t.me/ababu3" target="_blank"><i class="fab fa-telegram"></i></a>
-          </li>
-	  <li>
-            <a href="https://www.instagram.com/_ababu_" target="_blank"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/ababualemu0" target="_blank"><i class="fab fa-twitter"></i></a>
-          </li>
-        </ul>
-
-        <!-- Footer -->
-      </div>
+        
     </section>
     <div class="button-top-div" id="myDIV">
       <a id="button-top" href="#top"><i class="fas fa-chevron-up"></i></a>
@@ -355,6 +367,30 @@
           });
         });
       });
+      const checkbox = document.getElementById("checkbox");
+      const header=document.querySelector('header');
+      const abt_btn=document.getElementById('about-btn');
+      const home_btn=document.getElementById('home-btn');
+      const project_btn=document.getElementById('project-btn');
+      const logo=document.getElementById('logo');
+      const my_img=document.getElementById('my_img');
+      const container=document.getElementById('container');
+      const column=document.getElementById('column');
+      const intro_hi=document.getElementById('hi');
+      const intro_text=document.getElementById('intro')
+      checkbox.addEventListener("change", () => {
+        document.body.classList.toggle("dark");
+        header.classList.toggle("dark");
+        abt_btn.classList.toggle("dark");
+        home_btn.classList.toggle("dark");
+        project_btn.classList.toggle("dark");
+        logo.classList.toggle("dark");
+        my_img.classList.toggle("dark");
+        container.classList.toggle("dark");
+        column.classList.toggle("dark");
+        intro_hi.classList.toggle("dark");
+        intro_text.classList.toggle("dark");
+      })
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
