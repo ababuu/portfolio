@@ -93,7 +93,7 @@
               <p data-aos="fade-right" data-aos-duration="1000" id="intro">
                 I'm Ababu, a front-End developer with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored. Enjoy working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally picking up the slack when necessary. With a passion for both personal growth and for software development, I attended a 1000+ hour coding bootcamp to learn new languages while sharpening existing skills. Ready to apply my passion for coding to a talented engineering team to develop quality solutions.
               </p>
-              <a href="mailto:ababualemu123@gmail.com" data-aos="fade-right" data-aos-duration="1000">Contact Me</a>
+              <a href="mailto:ababualemu123@gmail.com" id="contact_me" data-aos="fade-right" data-aos-duration="1000">Contact Me</a>
             </div>
             <div class="my_img img" id="my_img">
               <img src="./assets/me.png" alt="Hello There!!" data-aos="fade-up-right" data-aos-duration="1000"/>
@@ -109,7 +109,7 @@
                 alt="APS-OCTOCAT"
               />
             </div>
-            <div class="column-2">
+            <div class="column-2" id="column-2">
               <svg
                 xmlns="//www.w3.org/2000/svg"
                 version="1.1"
@@ -135,14 +135,14 @@
                 </defs>
               </svg>
               <h2 style="font-weight: 550">
-                <span class="low-highlight-pink">What I do</span>
+                <span class="low-highlight-pink" id="what_i_do">What I do</span>
               </h2>
-              <h3 style="font-size: 24px; color: #444444; font-weight: 1">
+              <h3 id="i_love">
                 I love all aspects of technology and want to explore as much as I
                 can!
               </h3>
               <div class="dev-icons">
-                <ul>
+                <ul id="skill_container">
                   <li class="software-skill-inline html5">
                     <i class="devicon-html5-plain colored"></i>
                     <p>HTML5</p>
@@ -218,8 +218,8 @@
                 </ul>
               </div>
   
-              <div>
-                <p style="color: #444444; font-size: 20px">
+              <div class="" id="what_detail">
+                <p class="what_detail" >
                   <img
                     alt="⚡"
                     draggable="false"
@@ -234,7 +234,7 @@
                   Develop highly interactive Front end / User Interfaces for your
                   web
                 </p>
-                <p style="color: #444444; font-size: 20px">
+                <p class="what_detail">
                   <img
                     alt="⚡"
                     draggable="false"
@@ -246,7 +246,7 @@
                       vertical-align: -0.1em;
                     "
                   />
-                  Develop colourful, responsive and beautiful mini-projects, websites, and etc.
+                  Develop colourful, responsive and beautiful projects, websites, and etc.
                 </p>
               </div>
             </div>
@@ -285,7 +285,7 @@
           >
             <span class="low-highlight-cyan">Projects</span>
           </h2>
-          <div class="projects" data-aos="fade-up" data-aos-duration="1500">
+          <div class="projects" id="projects_container" data-aos="fade-up" data-aos-duration="1500">
             <div class="repo-card" data-repo="ababuu/where-s_waldo_-a_photo_tagging_app-"></div>
             <div class="repo-card" data-repo="ababuu/shoplly"></div>
             <div
@@ -293,16 +293,13 @@
               data-repo="ababuu/pinterest_clone
               "
             ></div>
-            <div
-              class="repo-card"
+            <div class="repo-card"
               data-repo="ababuu/TODO_Web_App"></div>
-        <div
-              class="repo-card"
-              data-repo="ababuu/memory_game_react"></div>
-  
-            <div class="repo-card" data-repo="ababuu/Weather_webApp"></div>
-            <div class="repo-card" data-repo="ababuu/ETCH_A_SKETCH"></div>
-            <div class="repo-card" data-repo="ababuu/rock_paper_scissors"></div>
+        
+              <div class="repo-card" data-repo="ababuu/memory_game_react"></div>
+              <div class="repo-card" data-repo="ababuu/Weather_webApp"></div>
+              <div class="repo-card" data-repo="ababuu/ETCH_A_SKETCH"></div>
+              <div class="repo-card" data-repo="ababuu/rock_paper_scissors"></div>
           </div>
   
           <h2  id="contact"
@@ -377,7 +374,15 @@
       const container=document.getElementById('container');
       const column=document.getElementById('column');
       const intro_hi=document.getElementById('hi');
-      const intro_text=document.getElementById('intro')
+      const intro_text=document.getElementById('intro');
+      const contact_me=document.getElementById('contact_me');
+      const what_i_do=document.getElementById('what_i_do');
+      const skill_container=document.getElementById('skill_container');
+      const what_detail=document.getElementById('what_detail');
+      const i_love=document.getElementById('i_love');
+      const column_2=document.getElementById('column-2');
+      const projects=document.getElementById('projects');
+      const projects_container=document.getElementById('projects_container');
       checkbox.addEventListener("change", () => {
         document.body.classList.toggle("dark");
         header.classList.toggle("dark");
@@ -390,6 +395,14 @@
         column.classList.toggle("dark");
         intro_hi.classList.toggle("dark");
         intro_text.classList.toggle("dark");
+        contact_me.classList.toggle("dark");
+        what_i_do.classList.toggle("dark");
+        skill_container.classList.toggle("dark");
+        what_detail.classList.toggle("dark");
+        i_love.classList.toggle("dark");
+        column_2.classList.toggle("dark");
+        projects.classList.toggle("dark");
+        projects_container.classList.toggle("dark");
       })
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
